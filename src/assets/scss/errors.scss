@@ -1,0 +1,45 @@
+[error='true'] {
+    input,
+    select,
+    textarea,
+    .group {
+        @apply border border-red-500 ring-red-500 #{!important};
+    }
+
+    .radio-container {
+        @apply border border-red-500 ring-red-500 rounded-full w-4 h-4 #{!important};
+
+        & > input[type='radio'] {
+            @apply appearance-none border-none m-0 #{!important};
+        }
+    }
+}
+
+[error='true'] {
+    label,
+    span {
+        color: #ff5e34 !important;
+    }
+
+    input,
+    select,
+    textarea {
+        border-color: #ff5e34 !important;
+        caret-color: #ff5e34 !important;
+
+        &:focus {
+            border-color: #ff5e34 !important;
+            box-shadow: 0 0 0 0.25rem rgb(255 94 52 / 25%) !important;
+        }
+    }
+
+    .contator {
+        color: #ff5e34 !important;
+    }
+
+    &.error-border-b-container {
+        input {
+            @apply border-b-2 border-l-0 border-r-0 border-t-0 #{!important};
+        }
+    }
+}
