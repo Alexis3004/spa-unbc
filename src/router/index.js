@@ -57,7 +57,7 @@ const routes = [
                                 header: {
                                     show: false,
                                     showBackButton: false,
-                                    showLogo: true,
+                                    showLogo: false,
                                     showTitle: false,
                                     showDate: true,
                                     showUserMenu: true,
