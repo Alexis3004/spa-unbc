@@ -107,7 +107,7 @@ module.exports = {
                 'app-desktop': 'var(--header-spacing-desktop) repeat(1, minmax(0, 1fr))'
             },
             gridTemplateColumns: {
-                'sidebar-phone': 'repeat(5, minmax(0, 1fr))',
+                'sidebar-phone': 'repeat(3, minmax(0, 1fr))',
                 'sidebar-laptop': 'repeat(1, minmax(0, 1fr))',
                 'app-phone': 'repeat(1, minmax(0, 1fr))',
                 'app-laptop': 'var(--sidebar-spacing-laptop) minmax(900px, 1fr)',
