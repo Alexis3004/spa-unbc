@@ -35,11 +35,6 @@ module.exports = {
                 'text3-color': 'var(--text3-color)',
                 'text-login-color': 'var(--textLogin-color)',
                 'border-color': 'var(--border-color)',
-                'icon-menu': 'var(--icon-menu)',
-                'menumovil-fom': 'var(--menumovil-fom)',
-                'menumovil-via': 'var(--menumovil-via)',
-                'menumovil-to': 'var(--menumovil-to)',
-                'menumovil-icon': 'var(--menumovil-icon)',
                 option: {
                     one: '#3dc9ea',
                     two: '#28cbd5',

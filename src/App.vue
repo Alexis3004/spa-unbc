@@ -30,13 +30,7 @@ const colors = ref({
     text3Color: '#ffffff',
     textLoginColor: '#5B667B',
 
-    borderColor: '#8ca8b5',
-
-    Iconmenu: '#000000',
-    menuMovilFrom: '#1D7BB2',
-    menuMovilVia: '#1D7BB2',
-    menuMovilTo: '#0F3E59',
-    menuMovilIcon: '#99B8CA'
+    borderColor: '#8ca8b5'
 })
 
 onMounted(() => {
@@ -77,12 +71,6 @@ onMounted(() => {
     document.documentElement.style.setProperty('--textLogin-color', colors.value.textLoginColor)
 
     document.documentElement.style.setProperty('--border-color', colors.value.borderColor)
-
-    document.documentElement.style.setProperty('--icon-menu', colors.value.Iconmenu)
-    document.documentElement.style.setProperty('--menumovil-fom', colors.value.menuMovilFrom)
-    document.documentElement.style.setProperty('--menumovil-via', colors.value.menuMovilVia)
-    document.documentElement.style.setProperty('--menumovil-to', colors.value.menuMovilTo)
-    document.documentElement.style.setProperty('--menumovil-icon', colors.value.menuMovilIcon)
 })
 </script>
 
